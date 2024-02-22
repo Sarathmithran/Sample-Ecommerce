@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#logo{
+    width: 75px;
+    height: 70px;
+}
+.header-logos{
+    width: 45px;
+    height: 25px;
+    margin-bottom: -8px;
+}
+#search-bar{
+    width: 40vw;
+    height: 5vh;
+    margin-top: 15px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.img-and-text{
+    margin-top: 20px;
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-contents{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    background-color: lightgoldenrodyellow;
+    margin: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.second-contents{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(https://images.pexels.com/photos/18925018/pexels-photo-18925018/free-photo-of-selection-of-products-in-shop.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    margin: 10px;
+}
+.items{
+    width: 80px;
+    height: 70px;
+    margin-top: 20px;
+}
+.items:hover{
+    background-color: lightgreen;
+}
+.items > span{
+    margin-left: 6px
+}
+.items-img{
+    width: 80px;
+    height: 70px;
+}
+.third-contents{
+    width: 100vw;
+    height: 20vh;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/140/image/9ee27aa0c23e89ac.jpg?q=20);
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.product-list{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+.button-div{
+    width: 200px;
+    height: 280px;
+    background-image: url(https://miro.medium.com/v2/resize:fit:580/1*7hDM39YAClGLKcqcB02RXw.jpeg);
+    background-size: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.button-divTwo{
+    width: 200px;
+    height: 280px;
+    background-image: url(https://i.pinimg.com/736x/08/05/bc/0805bc32065d28910450ad1cbe2de2ea.jpg);
+    background-size: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.button-divTwo > button{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px
+}
+.button-divTwo > p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.button-divThree{
+    width: 200px;
+    height: 280px;
+    background-image: url(https://i.pinimg.com/originals/24/bf/a4/24bfa434a8b7ec01b5bc101345a382ef.jpg);
+    background-size: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.button-divThree > button{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px
+}
+.button-divThree > p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.button-div > button{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px
+}
+.button-div > p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.product{
+    width: 200px;
+    height: 280px;
+    text-align: center;
+}
+.product:hover{
+    background-color: lightgreen;
+}
+.product-img{
+    width: 200px;
+    height: 150px;
+    margin-top: 8px;
+}
+footer{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    justify-items: center;
+    width: 100vw;
+    height: 28vh;
+    background-color: black;
+}
+.footer-details{
+    height: 200px;
+}
+.footer-details > h4,p{
+    color: white;
+    text-align: justify;
+    line-height: .3;
+}
+.vertical-line {
+border-left: 1px solid rgb(250, 247, 247);
+height: 170px;
+margin-top: 15px; 
+}
+.line{
+    width: 100vh;
+    height: 0;
+    background-color: black;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 6vh;
+    background-color: black;
+    border-top: 2px solid lightgray;
+}
+.last-footer-details{
+    height: 30px;
+    width: 200px;
+}
+.last-footer-details > h5{
+    color: white;
+}
